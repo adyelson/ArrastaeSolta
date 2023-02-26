@@ -152,8 +152,9 @@ item.addEventListener('touchend', touchEnd);
 document.querySelectorAll('.area').forEach(area=>{
 area.addEventListener('dragover', dragOver);
 area.addEventListener('dragleave', dragLeave);
-area.addEventListener('drop', drop);
+area.addEventListener('drop', drop);    
 area.addEventListener('touchenter', touchEnter);
 area.addEventListener('touchleave', touchLeave);
 area.addEventListener('touchmove', touchMove);
 });
+
